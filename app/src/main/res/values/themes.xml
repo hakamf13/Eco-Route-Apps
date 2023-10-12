@@ -1,8 +1,12 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.EcoRouteApps" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-         <item name="colorPrimary">@color/sage</item>
+         <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorPrimary">@color/main_green</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
     </style>
 
     <style name="Theme.EcoRouteApps" parent="Base.Theme.EcoRouteApps" >

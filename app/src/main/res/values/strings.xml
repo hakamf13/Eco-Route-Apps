@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">Eco-Route Apps</string>
     <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo">logo</string>
+    <string name="first_fragment">first fragment</string>
+    <string name="second_fragment">second fragment</string>
+    <string name="first_title">Welcome To Ecoroute</string>
+    <string name="first_desc">Jalani Hidup dengan Jejak Hijau Temukan \n Rute Ramah Lingkunganmu</string>
+    <string name="third_fragment">third fragment</string>
+    <string name="third_title">Bergerak Lebih Baik</string>
+    <string name="third_desc">Berjalan, Bersepeda , dan Jadikan Polusi \n Karbon Sejarah!</string>
+    <string name="second_title">Perbaiki Lingkunganmu</string>
+    <string name="second_desc">Beralih ke Rute Ramah Lingkungan , Kurangi \n Polusi Karbon Bersama Kami</string>
+    <string name="skip">Skip</string>
 </resources>
