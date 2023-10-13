@@ -1,11 +1,14 @@
-package com.startup.eco.route.ui.onboarding.fragments
+package com.startup.eco.route.ui.Onboarding.fragments
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.startup.eco.route.R
+import com.startup.eco.route.ui.Authentication.AuthenticationActivity
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -35,6 +38,12 @@ class ThridFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+
+        Handler().postDelayed({
+            requireActivity().finish()
+            startActivity(Intent(requireActivity(), AuthenticationActivity::class.java))
+        },2000)
+
         return inflater.inflate(R.layout.fragment_thrid, container, false)
     }
 

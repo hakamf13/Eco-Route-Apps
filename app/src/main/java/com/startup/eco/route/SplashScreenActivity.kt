@@ -6,7 +6,7 @@ import android.os.Handler
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.startup.eco.route.ui.onboarding.OnBoardingActivity
+import com.startup.eco.route.ui.Onboarding.OnBoardingActivity
 
 
 class SplashScreenActivity : AppCompatActivity() {

@@ -14,4 +14,15 @@
     <string name="second_title">Perbaiki Lingkunganmu</string>
     <string name="second_desc">Beralih ke Rute Ramah Lingkungan , Kurangi \n Polusi Karbon Bersama Kami</string>
     <string name="skip">Skip</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="password">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="sing_in">Sing In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="auth_desc">Mulai Langkah kecil Untuk Alam yang \n lebih baik</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="auth_title">Bergabung Bersama Kami</string>
+    <string name="back">back</string>
 </resources>

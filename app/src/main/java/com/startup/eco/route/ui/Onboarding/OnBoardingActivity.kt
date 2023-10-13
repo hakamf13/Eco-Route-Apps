@@ -1,13 +1,13 @@
-package com.startup.eco.route.ui.onboarding
+package com.startup.eco.route.ui.Onboarding
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.startup.eco.route.adapter.ViewPagerAdapter
 import com.startup.eco.route.databinding.ActivityOnBoardingBinding
-import com.startup.eco.route.ui.onboarding.fragments.FistFragment
-import com.startup.eco.route.ui.onboarding.fragments.SecondFragment
-import com.startup.eco.route.ui.onboarding.fragments.ThridFragment
+import com.startup.eco.route.ui.Onboarding.fragments.FistFragment
+import com.startup.eco.route.ui.Onboarding.fragments.SecondFragment
+import com.startup.eco.route.ui.Onboarding.fragments.ThridFragment
 
 class OnBoardingActivity : AppCompatActivity() {
 

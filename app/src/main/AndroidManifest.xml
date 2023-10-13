@@ -13,9 +13,11 @@
         android:theme="@style/Theme.EcoRouteApps"
         tools:targetApi="31">
         <activity
-            android:name=".ui.onboarding.OnBoardingActivity"
+            android:name=".ui.Authentication.AuthenticationActivity"
             android:exported="false" />
-
+        <activity
+            android:name=".ui.Onboarding.OnBoardingActivity"
+            android:exported="false" />
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true">
